@@ -1,0 +1,49 @@
+GERAR EXECUTAVEL
+
+    Tenha o PyInstaller no seu computador:
+
+    pip install pyinstaller 
+    (no console instale pelo pip)
+
+
+    Gerar o arquivo.exe 
+
+    Comando: /pyinstaller meu_arquivo.py 
+
+
+    /PARAR GERAR UM EXECUTAVEL COM UMA JANELA USE O SEGUINTE COMANDO:
+    pyinstaller --windowed meu_arquivo.py
+    (Funciona com ou sem framework)
+
+
+FRONTEND COM PYTHON
+    
+    INSTALE O PyQt5: pip install PyQt5
+    PyQT: PyQt é uma biblioteca mais avançada para desenvolvimento de interfaces
+    gráficas em Python, baseada no toolkit Qt. 
+    Aqui está um exemplo básico de como criar uma janela com PyQt:
+
+
+    import sys
+        from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton
+
+        class MinhaApp(QMainWindow):
+            def __init__(self):
+                super().__init__()
+                self.setWindowTitle("Minha Aplicação")
+                
+                label = QLabel("Olá, mundo!", self)
+                label.move(50, 50)
+                
+                botao = QPushButton("Clique Aqui", self)
+                botao.move(50, 80)
+                botao.clicked.connect(self.fechar_janela)
+                
+            def fechar_janela(self):
+                self.close()
+
+        # Instanciar e executar a aplicação
+        app = QApplication(sys.argv)
+        janela = MinhaApp()
+        janela.show()
+        sys.exit(app.exec_())
