@@ -1,0 +1,162 @@
+ESTRUTURA DE DADOS 
+
+
+Estrutura de dados refere-se à organização e ao armazenamento de dados de maneira eficiente, 
+permitindo que sejam manipulados, acessados e modificados de forma eficaz. É um conceito fundamental 
+em ciência da computação e é usado em uma ampla variedade de aplicativos e algoritmos.
+
+Uma estrutura de dados pode ser pensada como um conjunto de elementos, chamados de nós, que são organizados 
+de uma maneira específica. Existem várias estruturas de dados comuns, cada uma projetada para atender a diferentes
+requisitos de armazenamento e operações:
+
+Array: Um array é uma estrutura de dados que armazena um conjunto de elementos do mesmo tipo, 
+acessíveis por meio de um índice. Os elementos são armazenados de forma contígua na memória. Arrays 
+são eficientes para acesso direto aos elementos, mas têm tamanho fixo e não são adequados para inserções e 
+exclusões frequentes.
+
+Lista Ligada: Uma lista ligada é uma estrutura de dados composta por uma sequência de elementos 
+chamados nós, onde cada nó contém um valor e uma referência (ou ponteiro) para o próximo nó na sequência. 
+As listas ligadas podem ser simplesmente ligadas (cada nó aponta para o próximo) ou duplamente ligadas 
+(cada nó aponta para o próximo e o anterior). Listas ligadas são eficientes para inserções e exclusões, 
+mas têm acesso sequencial.
+
+Pilha (Stack): Uma pilha é uma estrutura de dados que segue a disciplina LIFO (Last In, First Out), 
+onde o último elemento inserido é o primeiro a ser removido. Operações de inserção e remoção ocorrem 
+apenas em uma extremidade da estrutura, chamada de topo.
+
+Fila (Queue): Uma fila é uma estrutura de dados que segue a disciplina FIFO (First In, First Out), 
+onde o primeiro elemento inserido é o primeiro a ser removido. Operações de inserção ocorrem em uma 
+extremidade da estrutura, chamada de fim, e as operações de remoção ocorrem na outra extremidade, 
+chamada de frente.
+
+Árvore: Uma árvore é uma estrutura de dados hierárquica composta por nós, onde cada nó tem um pai e 
+zero ou mais filhos. As árvores são usadas para representar relações hierárquicas e são amplamente 
+utilizadas em algoritmos de pesquisa e estruturas de dados como árvores binárias de busca, árvores
+AVL e árvores B.
+
+Grafo: Um grafo é uma estrutura de dados composta por vértices (ou nós) 
+e arestas que conectam esses vértices. Os grafos são usados para representar relações entre 
+objetos e são usados em uma variedade de problemas de otimização, como rotas de redes 
+de computadores e grafos sociais.
+
+
+LISTA LIGADA:
+Ligar elementos
+(Nós)
+Lista Funcionario = "João" - 1 nó e ultimo nó
+
+Supomos entao que eu adiciono outro nó, ficaria assim:
+
+Lista Funcionario = "João" - 1 nó
+
+    Os nós estão ligados
+
+Lista Funcionario = "Maria" - 2 nó e ultimo nó
+
+(O ultimo nó aponta para um outro nó, mesmo que não exista ela ja esta esperando)
+
+
+ARVORE:
+
+Ex1:
+A 
+B 
+Temos aqui uma floresta 
+
+
+Ex2:
+  -- B  
+A -- C -- E
+  -- D
+
+Nesta arvore:
+    A = raiz
+    B = Folha
+    D = Folha
+
+
+Ex3: Subarvore
+
+  -- B
+A -- C -- E
+  -- D 
+
+Por exemplo, somente B é uma subarvore
+
+
+Ex4: Parents
+
+  -- B
+A -- C -- E
+  -- D 
+
+B, C e D são filhos de a
+
+
+Ex5: Descendente
+
+  -- B
+A -- C -- E
+  -- D 
+
+E é descendente de A
+(do E para o C e de C para o A caminhando)
+
+
+
+Ex6: Ancestral
+
+  -- B
+A -- C -- E
+  -- D 
+
+Do A para o E, A é ancestral de E
+
+
+
+    GRAFOS 
+
+São representados por um conjunto de nós (vertices)
+conectados par a par por linhas (arestas)
+
+Para que servem: Relacionamento, labirinto
+
+
+    Alguns grafos são dirigitos (direcionados)
+    As relações pelas arestas têm sentido definido
+    (pares ordenados de vertices)
+    (u,v) adjacesnte a 'u', logo 'v' é vizinho e 'u'
+
+
+    Alguns grafos são não dirigidos (ou não direcionados)
+    As arestas podem ser seguidas em qualquer direção
+    (u,v) <=> (v,u)
+
+    Ex:
+    Grafo dirigido = A -> binárias
+    Grafo não dirigido = A <-> B 
+    
+
+
+    Grau em grafos Não dirigidos
+
+V1 - V2 - V3 - (V1, V5) - V3 - V5 - V4 
+
+gr(V1) = gr(V2) = gr(V5) = 2
+gr(V3) = 3
+gr(V4) = 1
+
+
+    Grau em grafos dirigidos
+
+É  soma da saida com a entrada
+
+V1 - V2 - V3 - (V1, V5) - V3 - V5 - (V4 self-loo)
+
+gr(V1) = gr(V2) = gr(V5) = 2
+gr(V3) = gr(V4) = 3
+
+Nesse tipo de grafo existe 2 graus de vértices:
+
+* Grau de saida: Número de arestas que saem do vértice 
+* Grau de entrada: Número de arestas que chegão no vértice

@@ -1,0 +1,72 @@
+    CODASYL - Objetivo
+
+O CODASYL (Conference on Data Systems Languages) foi uma organização fundada em 
+1959 nos Estados Unidos, com o objetivo de padronizar as linguagens de programação e os sistemas 
+de gerenciamento de bancos de dados. Era composta por representantes de várias empresas, universidades
+e agências governamentais.
+
+
+
+    HOJE - Responsaveis pela padronização
+
+ISO (International Organization for Standardization): 
+A ISO é uma organização internacional que desenvolve e publica normas técnicas para diversas 
+indústrias e tecnologias, incluindo a computação. Ela supervisiona a padronização de várias linguagens 
+de programação e tecnologias de banco de dados, garantindo que elas atendam a certos critérios de qualidade
+e interoperabilidade.
+
+ANSI (American National Standards Institute): 
+Nos Estados Unidos, a ANSI desempenha um papel importante na padronização de 
+linguagens de programação e tecnologias relacionadas. Ela muitas vezes trabalha em 
+conjunto com a ISO e outras organizações internacionais para desenvolver e manter padrões 
+globalmente reconhecidos.
+
+
+
+    OPEN SOURCE
+
+Linguagem de Programação Open Source (Código Aberto):
+
+No modelo de código aberto, o código-fonte da linguagem de programação é disponibilizado livremente para que 
+qualquer pessoa possa visualizá-lo, modificar e distribuir.
+
+A comunidade de desenvolvedores geralmente colabora para melhorar a linguagem, identificar e
+corrigir bugs, desenvolver novos recursos e garantir sua evolução contínua.
+
+A licença de código aberto que acompanha a linguagem geralmente permite o uso, modificação e distribuição 
+do código-fonte sem restrições excessivas, embora possa haver certas condições, como a obrigação de manter a 
+atribuição de autoria ou de disponibilizar as modificações sob a mesma licença.
+
+Exemplos de linguagens de programação open source incluem Python, 
+JavaScript (Node.js), Ruby, PHP, Java (OpenJDK), entre outras.
+
+
+
+    PRIVATE
+
+Linguagem de Programação Privada (Proprietária):
+
+No modelo proprietário, o código-fonte da linguagem de programação é controlado e mantido por uma entidade 
+específica, como uma empresa ou organização, que detém os direitos autorais sobre o código.
+
+O acesso ao código-fonte geralmente é restrito e não está disponível para o público em geral. A empresa proprietária 
+pode optar por fornecer apenas binários executáveis da linguagem.
+
+O desenvolvimento, manutenção e evolução da linguagem são realizados internamente pela empresa proprietária, e os 
+usuários da linguagem geralmente não têm permissão para modificar o código-fonte ou contribuir diretamente para o 
+seu desenvolvimento.
+
+A empresa proprietária pode impor restrições de licenciamento e uso da linguagem, e pode cobrar taxas de 
+licença para seu uso em determinados contextos ou para obter suporte técnico.
+
+Exemplos de linguagens de programação proprietárias incluem C#, Swift, Objective-C, MATLAB, entre outras.
+
+
+
+    MODELAGEM DA ATUALIDADE
+
+Modelo Relacional: MYSQL
+
+Modelo de Documentos: NoSQL
+
+Modelo de Grafos: Neo4j

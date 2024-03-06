@@ -25,7 +25,7 @@ os.system('cls')
 print('Aguarde um momento, o montante esta sendo processado...')
 time.sleep(4)
 
-p1 = (1+(i/100))
+p1 = (1+((i/100)/12))
 p2 = pow(p1, n)
 p3 = pv * p2
 
