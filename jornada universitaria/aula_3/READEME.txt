@@ -1,0 +1,53 @@
+PALAVRAS CHAVE DE JOVANI CASTELAN
+
+    - Adaptação
+    - Planejamento
+    - Empatia
+    - Compaixão
+    - Emoção
+
+
+COMO E ONDE PESQUISAR?
+
+    - O QUE É PESQUISAR?
+        * Encontrar um conteudo do qual existe uma necessidade ou curiosidade
+
+    - ONDE PESQUISAR?
+        * Texto Científico!
+        * Google Academico
+        * Web of Science
+        * sci-hub
+        * Library Genesis
+        * Legislação Nacional Brasileira
+        * IBGE
+        * Nações Unidas
+        * CAPES
+        * INEP
+        * Dominio Publico
+
+    - O QUE PESQUISAR?
+        * Vai de acordo com a necessidade
+
+    - COMO PESQUISAR?
+        * Como pesquisar depende do rigor metodologico, quanto mais avançada a pesquisar
+        maior é o rigor. Para uma pesquisa aplicada fica complicado por conta de todas
+        as validações necessarias.
+
+
+PESQUISA CIENTÍFICA
+
+    - INICIAÇÃO CIENTÍFICA
+        * Me apropria do conteudo ja existente
+
+    - PESQUISA APLICADA
+        * Por em prática o conteudo e dar uma nova utilização daquilo para aquilo
+
+
+CONHECIMENTO HUMANO
+
+    - Fundamental = 1
+    - Médio = 2
+    - Graduação no Superior = 3 + (1 em alguma area)
+    - Pós-graduação = 3 + (2 em alguma area)
+    - Mestrado = 3 + (3 em alguma area) # Esse titulo é o apice do conhecimento
+    - Doutorado = 3 + ((3 em alguma area) + sua_contribuição = 0.01)
